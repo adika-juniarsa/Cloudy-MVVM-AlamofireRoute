@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AAB7C8C4B4255D0076EFF3A /* Pods_CloudyAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1D9C324EBC8B83DB52C417 /* Pods_CloudyAPP.framework */; };
+		854BA7B1217FD5A00089D2EB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854BA7B0217FD5A00089D2EB /* Location.swift */; };
+		854BA7B4217FDA860089D2EB /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854BA7B3217FDA860089D2EB /* LocationTableViewCell.swift */; };
+		854BA7B7217FDB9F0089D2EB /* LocationRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854BA7B6217FDB9F0089D2EB /* LocationRepresentable.swift */; };
+		854BA7BA217FDC410089D2EB /* LocationsViewLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854BA7B9217FDC410089D2EB /* LocationsViewLocationViewModel.swift */; };
+		854BA7BD217FEDB50089D2EB /* AddNewLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854BA7BC217FEDB50089D2EB /* AddNewLocationViewController.swift */; };
+		85515C2921801E5E00143F91 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85515C2821801E5E00143F91 /* SettingsViewController.swift */; };
+		85515C2B2180204400143F91 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85515C2A2180204400143F91 /* SettingsTableViewCell.swift */; };
+		85515C2E2180402E00143F91 /* DayViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85515C2D2180402E00143F91 /* DayViewViewModel.swift */; };
+		85515C30218048B600143F91 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85515C2F218048B600143F91 /* UIImage.swift */; };
+		85515C3221806B2100143F91 /* WeekModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85515C3121806B2100143F91 /* WeekModelView.swift */; };
+		85537C46217F647B00064931 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85537C45217F647B00064931 /* LocationViewController.swift */; };
+		85598A9A217EC1F100E953F5 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85598A99217EC1F100E953F5 /* WeatherViewController.swift */; };
+		85598A9F217EC76800E953F5 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85598A9E217EC76800E953F5 /* Assets.swift */; };
+		85598AA3217EDDAB00E953F5 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85598AA2217EDDAB00E953F5 /* DayViewController.swift */; };
+		85598AA6217EEDD400E953F5 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85598AA5217EEDD400E953F5 /* UserDefaults.swift */; };
+		85598AA8217EF74600E953F5 /* Convertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85598AA7217EF74600E953F5 /* Convertions.swift */; };
+		85598AAC217F244400E953F5 /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85598AAB217F244400E953F5 /* WeekViewController.swift */; };
+		85598AB0217F299A00E953F5 /* DayViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85598AAF217F299A00E953F5 /* DayViewTableViewCell.swift */; };
+		856233A9217E8D7E00FA52A6 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233A8217E8D7E00FA52A6 /* APIRouter.swift */; };
+		856233AB217E962600FA52A6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233AA217E962600FA52A6 /* APIClient.swift */; };
+		856233C2217EA7D500FA52A6 /* Minutely.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233BB217EA7D500FA52A6 /* Minutely.swift */; };
+		856233C3217EA7D500FA52A6 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233BC217EA7D500FA52A6 /* Flags.swift */; };
+		856233C4217EA7D500FA52A6 /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233BD217EA7D500FA52A6 /* Daily.swift */; };
+		856233C5217EA7D500FA52A6 /* Hourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233BE217EA7D500FA52A6 /* Hourly.swift */; };
+		856233C6217EA7D500FA52A6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233BF217EA7D500FA52A6 /* Data.swift */; };
+		856233C7217EA7D500FA52A6 /* Currently.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233C0217EA7D500FA52A6 /* Currently.swift */; };
+		856233C8217EA7D500FA52A6 /* Weathers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856233C1217EA7D500FA52A6 /* Weathers.swift */; };
+		8578DB03217DCC9F005859D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578DB02217DCC9F005859D7 /* AppDelegate.swift */; };
+		8578DB05217DCC9F005859D7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578DB04217DCC9F005859D7 /* RootViewController.swift */; };
+		8578DB08217DCC9F005859D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8578DB06217DCC9F005859D7 /* Main.storyboard */; };
+		8578DB0A217DCCB0005859D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8578DB09217DCCB0005859D7 /* Assets.xcassets */; };
+		8578DB0D217DCCB0005859D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8578DB0B217DCCB0005859D7 /* LaunchScreen.storyboard */; };
+		8578DB16217DCF3D005859D7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578DB15217DCF3D005859D7 /* Configuration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B1D9C324EBC8B83DB52C417 /* Pods_CloudyAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudyAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1AFBFC72D46D0255B27C26 /* Pods-CloudyAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudyAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudyAPP/Pods-CloudyAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		8351D063CAF274125975A459 /* Pods-CloudyAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudyAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudyAPP/Pods-CloudyAPP.release.xcconfig"; sourceTree = "<group>"; };
+		854BA7B0217FD5A00089D2EB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		854BA7B3217FDA860089D2EB /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		854BA7B6217FDB9F0089D2EB /* LocationRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepresentable.swift; sourceTree = "<group>"; };
+		854BA7B9217FDC410089D2EB /* LocationsViewLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewLocationViewModel.swift; sourceTree = "<group>"; };
+		854BA7BC217FEDB50089D2EB /* AddNewLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewLocationViewController.swift; sourceTree = "<group>"; };
+		85515C2821801E5E00143F91 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		85515C2A2180204400143F91 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		85515C2D2180402E00143F91 /* DayViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewViewModel.swift; sourceTree = "<group>"; };
+		85515C2F218048B600143F91 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		85515C3121806B2100143F91 /* WeekModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekModelView.swift; sourceTree = "<group>"; };
+		85537C45217F647B00064931 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		85598A99217EC1F100E953F5 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		85598A9E217EC76800E953F5 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		85598AA2217EDDAB00E953F5 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		85598AA5217EEDD400E953F5 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		85598AA7217EF74600E953F5 /* Convertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertions.swift; sourceTree = "<group>"; };
+		85598AAB217F244400E953F5 /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		85598AAF217F299A00E953F5 /* DayViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewTableViewCell.swift; sourceTree = "<group>"; };
+		856233A8217E8D7E00FA52A6 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		856233AA217E962600FA52A6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		856233BB217EA7D500FA52A6 /* Minutely.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minutely.swift; sourceTree = "<group>"; };
+		856233BC217EA7D500FA52A6 /* Flags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		856233BD217EA7D500FA52A6 /* Daily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Daily.swift; sourceTree = "<group>"; };
+		856233BE217EA7D500FA52A6 /* Hourly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hourly.swift; sourceTree = "<group>"; };
+		856233BF217EA7D500FA52A6 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		856233C0217EA7D500FA52A6 /* Currently.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currently.swift; sourceTree = "<group>"; };
+		856233C1217EA7D500FA52A6 /* Weathers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weathers.swift; sourceTree = "<group>"; };
+		8578DAFF217DCC9F005859D7 /* CloudyAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudyAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8578DB02217DCC9F005859D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8578DB04217DCC9F005859D7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8578DB07217DCC9F005859D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8578DB09217DCCB0005859D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8578DB0C217DCCB0005859D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8578DB0E217DCCB0005859D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8578DB15217DCF3D005859D7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8578DAFC217DCC9F005859D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAB7C8C4B4255D0076EFF3A /* Pods_CloudyAPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		854BA7B2217FDA610089D2EB /* LocationsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				854BA7B3217FDA860089D2EB /* LocationTableViewCell.swift */,
+			);
+			path = LocationsTableViewCell;
+			sourceTree = "<group>";
+		};
+		854BA7B5217FDB8B0089D2EB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				854BA7B6217FDB9F0089D2EB /* LocationRepresentable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		854BA7B8217FDC180089D2EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				854BA7B9217FDC410089D2EB /* LocationsViewLocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		854BA7BB217FED8C0089D2EB /* AddNewLocation */ = {
+			isa = PBXGroup;
+			children = (
+				854BA7BC217FEDB50089D2EB /* AddNewLocationViewController.swift */,
+			);
+			path = AddNewLocation;
+			sourceTree = "<group>";
+		};
+		85515C2521801D2700143F91 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				85515C2821801E5E00143F91 /* SettingsViewController.swift */,
+				85515C2A2180204400143F91 /* SettingsTableViewCell.swift */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		85515C2C2180400900143F91 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				85515C2D2180402E00143F91 /* DayViewViewModel.swift */,
+				85515C3121806B2100143F91 /* WeekModelView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		85537C44217F645200064931 /* LocationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				854BA7BB217FED8C0089D2EB /* AddNewLocation */,
+				854BA7B8217FDC180089D2EB /* ViewModel */,
+				854BA7B5217FDB8B0089D2EB /* Protocols */,
+				854BA7B2217FDA610089D2EB /* LocationsTableViewCell */,
+				85537C45217F647B00064931 /* LocationViewController.swift */,
+			);
+			path = LocationsViewController;
+			sourceTree = "<group>";
+		};
+		85598A93217EBD3E00E953F5 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85515C2521801D2700143F91 /* SettingsViewController */,
+				85537C44217F645200064931 /* LocationsViewController */,
+				85598A98217EC1A700E953F5 /* WeathersViewController */,
+				8578DB04217DCC9F005859D7 /* RootViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		85598A94217EBD4F00E953F5 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8578DB02217DCC9F005859D7 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		85598A95217EBD6000E953F5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8578DB06217DCC9F005859D7 /* Main.storyboard */,
+				8578DB0B217DCCB0005859D7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		85598A96217EBD8700E953F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85598A9D217EC72800E953F5 /* SwiftGen */,
+				8578DB09217DCCB0005859D7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85598A97217EC02500E953F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8578DB0E217DCCB0005859D7 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85598A98217EC1A700E953F5 /* WeathersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				85515C2C2180400900143F91 /* ViewModels */,
+				85598AB1217F29A000E953F5 /* Table Cell */,
+				85598A99217EC1F100E953F5 /* WeatherViewController.swift */,
+				85598AA2217EDDAB00E953F5 /* DayViewController.swift */,
+				85598AAB217F244400E953F5 /* WeekViewController.swift */,
+			);
+			path = WeathersViewController;
+			sourceTree = "<group>";
+		};
+		85598A9D217EC72800E953F5 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				85598A9E217EC76800E953F5 /* Assets.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		85598AA4217EEDB000E953F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85598AA5217EEDD400E953F5 /* UserDefaults.swift */,
+				85598AA7217EF74600E953F5 /* Convertions.swift */,
+				85515C2F218048B600143F91 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		85598AB1217F29A000E953F5 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				85598AAF217F299A00E953F5 /* DayViewTableViewCell.swift */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		856233A7217E8CC500FA52A6 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				856233A8217E8D7E00FA52A6 /* APIRouter.swift */,
+				856233AA217E962600FA52A6 /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		856233AC217E99E700FA52A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				856233C0217EA7D500FA52A6 /* Currently.swift */,
+				856233BD217EA7D500FA52A6 /* Daily.swift */,
+				856233BF217EA7D500FA52A6 /* Data.swift */,
+				856233BC217EA7D500FA52A6 /* Flags.swift */,
+				856233BE217EA7D500FA52A6 /* Hourly.swift */,
+				856233BB217EA7D500FA52A6 /* Minutely.swift */,
+				856233C1217EA7D500FA52A6 /* Weathers.swift */,
+				854BA7B0217FD5A00089D2EB /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8578DAF6217DCC9F005859D7 = {
+			isa = PBXGroup;
+			children = (
+				8578DB01217DCC9F005859D7 /* CloudyAPP */,
+				8578DB00217DCC9F005859D7 /* Products */,
+				B10BAC26569C0A1E1D0BD363 /* Pods */,
+				D9C9806B0A5DBE907CCAA9CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8578DB00217DCC9F005859D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8578DAFF217DCC9F005859D7 /* CloudyAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8578DB01217DCC9F005859D7 /* CloudyAPP */ = {
+			isa = PBXGroup;
+			children = (
+				85598AA4217EEDB000E953F5 /* Extensions */,
+				85598A97217EC02500E953F5 /* Supporting Files */,
+				85598A96217EBD8700E953F5 /* Resources */,
+				85598A95217EBD6000E953F5 /* Storyboard */,
+				85598A94217EBD4F00E953F5 /* App Delegate */,
+				85598A93217EBD3E00E953F5 /* View Controller */,
+				856233AC217E99E700FA52A6 /* Model */,
+				856233A7217E8CC500FA52A6 /* APIClient */,
+				8578DB17217DD0DA005859D7 /* Managers */,
+				8578DB14217DCE53005859D7 /* Configurations */,
+			);
+			path = CloudyAPP;
+			sourceTree = "<group>";
+		};
+		8578DB14217DCE53005859D7 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				8578DB15217DCF3D005859D7 /* Configuration.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		8578DB17217DD0DA005859D7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B10BAC26569C0A1E1D0BD363 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E1AFBFC72D46D0255B27C26 /* Pods-CloudyAPP.debug.xcconfig */,
+				8351D063CAF274125975A459 /* Pods-CloudyAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9C9806B0A5DBE907CCAA9CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B1D9C324EBC8B83DB52C417 /* Pods_CloudyAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8578DAFE217DCC9F005859D7 /* CloudyAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8578DB11217DCCB0005859D7 /* Build configuration list for PBXNativeTarget "CloudyAPP" */;
+			buildPhases = (
+				A88B4E96DAD336CF10B2F08E /* [CP] Check Pods Manifest.lock */,
+				8578DAFB217DCC9F005859D7 /* Sources */,
+				8578DAFC217DCC9F005859D7 /* Frameworks */,
+				8578DAFD217DCC9F005859D7 /* Resources */,
+				030E9122E127D2099BE8608D /* [CP] Embed Pods Frameworks */,
+				85598A9C217EC3FF00E953F5 /* swiftgen Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudyAPP;
+			productName = CloudyAPP;
+			productReference = 8578DAFF217DCC9F005859D7 /* CloudyAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8578DAF7217DCC9F005859D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = adika.com.latihan;
+				TargetAttributes = {
+					8578DAFE217DCC9F005859D7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 8578DAFA217DCC9F005859D7 /* Build configuration list for PBXProject "CloudyAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8578DAF6217DCC9F005859D7;
+			productRefGroup = 8578DB00217DCC9F005859D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8578DAFE217DCC9F005859D7 /* CloudyAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8578DAFD217DCC9F005859D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8578DB0D217DCCB0005859D7 /* LaunchScreen.storyboard in Resources */,
+				8578DB0A217DCCB0005859D7 /* Assets.xcassets in Resources */,
+				8578DB08217DCC9F005859D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030E9122E127D2099BE8608D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudyAPP/Pods-CloudyAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudyAPP/Pods-CloudyAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85598A9C217EC3FF00E953F5 /* swiftgen Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "swiftgen Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TemplatePath=$PODS_ROOT/SwiftGen/templates\nAssetsPath=$PROJECT_DIR/CloudyAPP/Resources\n\n$PODS_ROOT/SwiftGen/bin/swiftgen xcassets \"$AssetsPath/Assets.xcassets\" -p $TemplatePath/xcassets/swift4.stencil --output \"$AssetsPath/SwiftGen/Assets.swift\";\n";
+			showEnvVarsInLog = 0;
+		};
+		A88B4E96DAD336CF10B2F08E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudyAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8578DAFB217DCC9F005859D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8578DB16217DCF3D005859D7 /* Configuration.swift in Sources */,
+				856233C7217EA7D500FA52A6 /* Currently.swift in Sources */,
+				85515C2B2180204400143F91 /* SettingsTableViewCell.swift in Sources */,
+				856233C2217EA7D500FA52A6 /* Minutely.swift in Sources */,
+				856233C3217EA7D500FA52A6 /* Flags.swift in Sources */,
+				85598AA6217EEDD400E953F5 /* UserDefaults.swift in Sources */,
+				85515C2E2180402E00143F91 /* DayViewViewModel.swift in Sources */,
+				85598AA8217EF74600E953F5 /* Convertions.swift in Sources */,
+				85598AB0217F299A00E953F5 /* DayViewTableViewCell.swift in Sources */,
+				85598AAC217F244400E953F5 /* WeekViewController.swift in Sources */,
+				854BA7B4217FDA860089D2EB /* LocationTableViewCell.swift in Sources */,
+				85598A9A217EC1F100E953F5 /* WeatherViewController.swift in Sources */,
+				856233C6217EA7D500FA52A6 /* Data.swift in Sources */,
+				854BA7BD217FEDB50089D2EB /* AddNewLocationViewController.swift in Sources */,
+				856233A9217E8D7E00FA52A6 /* APIRouter.swift in Sources */,
+				8578DB05217DCC9F005859D7 /* RootViewController.swift in Sources */,
+				85598A9F217EC76800E953F5 /* Assets.swift in Sources */,
+				854BA7B7217FDB9F0089D2EB /* LocationRepresentable.swift in Sources */,
+				854BA7B1217FD5A00089D2EB /* Location.swift in Sources */,
+				85515C30218048B600143F91 /* UIImage.swift in Sources */,
+				85515C3221806B2100143F91 /* WeekModelView.swift in Sources */,
+				856233C5217EA7D500FA52A6 /* Hourly.swift in Sources */,
+				856233C8217EA7D500FA52A6 /* Weathers.swift in Sources */,
+				85537C46217F647B00064931 /* LocationViewController.swift in Sources */,
+				854BA7BA217FDC410089D2EB /* LocationsViewLocationViewModel.swift in Sources */,
+				85598AA3217EDDAB00E953F5 /* DayViewController.swift in Sources */,
+				856233AB217E962600FA52A6 /* APIClient.swift in Sources */,
+				85515C2921801E5E00143F91 /* SettingsViewController.swift in Sources */,
+				8578DB03217DCC9F005859D7 /* AppDelegate.swift in Sources */,
+				856233C4217EA7D500FA52A6 /* Daily.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8578DB06217DCC9F005859D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8578DB07217DCC9F005859D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8578DB0B217DCCB0005859D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8578DB0C217DCCB0005859D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8578DB0F217DCCB0005859D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8578DB10217DCCB0005859D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8578DB12217DCCB0005859D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1AFBFC72D46D0255B27C26 /* Pods-CloudyAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CloudyAPP/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adika.CloudyAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8578DB13217DCCB0005859D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8351D063CAF274125975A459 /* Pods-CloudyAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CloudyAPP/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adika.CloudyAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8578DAFA217DCC9F005859D7 /* Build configuration list for PBXProject "CloudyAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8578DB0F217DCCB0005859D7 /* Debug */,
+				8578DB10217DCCB0005859D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8578DB11217DCCB0005859D7 /* Build configuration list for PBXNativeTarget "CloudyAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8578DB12217DCCB0005859D7 /* Debug */,
+				8578DB13217DCCB0005859D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8578DAF7217DCC9F005859D7 /* Project object */;
+}
